@@ -14,11 +14,11 @@
 - ép kiểu: int/int = int => cần ép kiểu
 - từ khóa (keywords): là những từ được định nghĩa sẵn trong ngôn ngữ. Khi đặt tên biến tên hàm không được 
 # Kĩ thuật
- a. Thứ tự viết các hàm khi lập trình 
- b. kĩ thuật đặt lính canh
- c. kĩ thuật đặt cờ hiệu
- d. kĩ thuật phân tách hàm
- e. kĩ thuật debug
+ - Thứ tự viết các hàm khi lập trình 
+ -  kĩ thuật đặt lính canh 
+ -  kĩ thuật đặt cờ hiệu
+ -  kĩ thuật phân tách hàm
+ -  kĩ thuật debug
 # Kiến thức toán
 1. tam giác
 - chu vi, diện tích tam giác
