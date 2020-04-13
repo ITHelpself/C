@@ -1,4 +1,5 @@
-## TỔNG QUAN
+## TỔNG QUAN    
+--------------cập nhật ngày 13/4/2019-----------------------
 # kien thuc su dung
 - kiểu dữ liệu: int, float,...
 - khai báo hằng số:
@@ -36,4 +37,3 @@
 6. codepad.org, codepen.io
 7. github
 8. draw.io
-(cập nhật ngày 13/4/2019)
