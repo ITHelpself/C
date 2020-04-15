@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 void nhap(int &a, int &b){
     printf("Nhap a,b: ");
     scanf("%d%d",&a,&b);
@@ -18,6 +19,10 @@ float tinhThuong(int a, int b){
         return -1;
     }
     return (float)a/b;
+    
+}
+float mu(int a, int b){
+    return pow(a,b);
 }
 void xuat(int a, int b){
     printf("Tong = %.0f\n",tinhTong(a,b));

@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-enum LUACHON{
+enum LUACHON {
     Bua = 0,
     Keo = 1,
     Giay = 2
