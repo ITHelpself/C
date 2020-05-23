@@ -50,7 +50,7 @@ void setSizeFromFile(char *path, int &n)
     }
     else
     {
-        printf("File's not exist!");
+        perror("\nError (file)");
     }
 }
 void setArrayFromFile(char *path, int *a, int n)
