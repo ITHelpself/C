@@ -9,7 +9,7 @@ typedef struct book_st{
 void hoanVi(book_st &book1, book_st &book2);
 void menu(book_st *bookList, int n);
 void nhapSach(book_st *bookList, int n);
-void sapXepTheoTheLoai(book_st *bookList, int n);
+void sapXepTheoTheLoai(book_st bookList[], int n);
 void xuatChiTietCuonSach(book_st *bookList, int n);
 book_st timSachTheoTheLoai(book_st *booKList, int n, char theloai[]);
 book_st xuatVaoTep(book_st *bookList, int n, char path[]);
@@ -38,10 +38,10 @@ void nhapSach(book_st *bookList, int n){
         scanf("%d",&bookList->giatien);
     }
 }
-void sapXepTheoTheLoai(book_st *bookList, int n){
+void sapXepTheoTheLoai(book_st bookList[], int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-            if(strcmp(*(bookList+i)->theloai,*(bookList+j)->theloai) >0){
+            if(strcmp(bookList[i].theloai,bookList[i].theloai) >0){
                 hoanVi(bookList[i],bookList[j]);
             }
         }
